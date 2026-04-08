@@ -1,0 +1,27 @@
+{
+    "id": "90320f73-d6be-462f-bf3d-020ab5043924",
+    "jsonrpc": "2.0",
+    "method": "message/send",
+    "params": {
+        "configuration": {
+            "acceptedOutputModes": [
+                "text",
+                "text/plain",
+                "image/png"
+            ]
+        },
+        "message": {
+            "contextId": "f0b3fa91-b771-47c5-9ded-cd840e770d1b",
+            "kind": "message",
+            "messageId": "66675023-04aa-4584-8452-746f271f1c9a",
+            "parts": [
+                {
+                    "kind": "text",
+                    "text": "西雅图明天的天气怎么样？"
+                }
+            ],
+            "role": "user"
+        }
+    }
+}
+

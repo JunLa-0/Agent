@@ -1,0 +1,26 @@
+{
+    "id": "0a96020b-5876-4011-94d4-b8fc4743b911",
+    "jsonrpc": "2.0",
+    "method": "message/stream",
+    "params": {
+        "configuration": {
+            "acceptedOutputModes": [
+                "text",
+                "text/plain",
+                "image/png"
+            ]
+        },
+        "message": {
+            "contextId": "b5cdbc7f-504e-4174-a543-ba8aef6e85a9",
+            "kind": "message",
+            "messageId": "9a022c61-4948-4731-b0b0-2671c66b0b43",
+            "parts": [
+                {
+                    "kind": "text",
+                    "text": "请帮我查询2025年5月1日从西雅图飞往纽约的航班有哪些？"
+                }
+            ],
+            "role": "user"
+        }
+    }
+}

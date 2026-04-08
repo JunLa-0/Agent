@@ -1,0 +1,9 @@
+data: {"id":"0a96020b-5876-4011-94d4-b8fc4743b911","jsonrpc":"2.0","result":{"contextId":"b5cdbc7f-504e-4174-a543-ba8aef6e85a9","history":[{"contextId":"b5cdbc7f-504e-4174-a543-ba8aef6e85a9","kind":"message","messageId":"9a022c61-4948-4731-b0b0-2671c66b0b43","parts":[{"kind":"text","text":"请帮我查询2025年5月1日从西雅图飞往纽约的航班有哪些？"}],"role":"user","taskId":"41469774-41a2-4b33-b0fb-1f12f6bbef6e"}],"id":"41469774-41a2-4b33-b0fb-1f12f6bbef6e","kind":"task","status":{"state":"submitted"}}}
+
+data: {"id":"0a96020b-5876-4011-94d4-b8fc4743b911","jsonrpc":"2.0","result":{"append":false,"artifact":{"artifactId":"6b457be7-8c24-4ca2-879d-cd03fe3528a1","parts":[{"kind":"text","text":"你要查询的机票"}]},"contextId":"b5cdbc7f-504e-4174-a543-ba8aef6e85a9","kind":"artifact-update","lastChunk":false,"taskId":"41469774-41a2-4b33-b0fb-1f12f6bbef6e"}}
+
+data: {"id":"0a96020b-5876-4011-94d4-b8fc4743b911","jsonrpc":"2.0","result":{"append":true,"artifact":{"artifactId":"6b457be7-8c24-4ca2-879d-cd03fe3528a1","parts":[{"kind":"text","text":"如下："}]},"contextId":"b5cdbc7f-504e-4174-a543-ba8aef6e85a9","kind":"artifact-update","lastChunk":false,"taskId":"41469774-41a2-4b33-b0fb-1f12f6bbef6e"}}
+
+data: {"id":"0a96020b-5876-4011-94d4-b8fc4743b911","jsonrpc":"2.0","result":{"append":true,"artifact":{"artifactId":"6b457be7-8c24-4ca2-879d-cd03fe3528a1","parts":[{"kind":"text","text":"1. 航班号 FAKE-001，起飞时间 20:00，余票 30 张；2. 航班号 FAKE-002，起飞时间 23:00，余票 50 张"}]},"contextId":"b5cdbc7f-504e-4174-a543-ba8aef6e85a9","kind":"artifact-update","lastChunk":true,"taskId":"41469774-41a2-4b33-b0fb-1f12f6bbef6e"}}
+
+data: {"id":"0a96020b-5876-4011-94d4-b8fc4743b911","jsonrpc":"2.0","result":{"contextId":"b5cdbc7f-504e-4174-a543-ba8aef6e85a9","final":true,"kind":"status-update","status":{"state":"completed"},"taskId":"41469774-41a2-4b33-b0fb-1f12f6bbef6e"}}
